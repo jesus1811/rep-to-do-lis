@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #333333;
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px 0;
+  gap: 30px;
+}
+.home__cont-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0;
+}
+.home__title {
+  font-size: 35px;
+  color: #ff9900;
+  font-weight: bold;
+}
