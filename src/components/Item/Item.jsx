@@ -10,7 +10,6 @@ const Item = ({ nombre, descripcion, id }) => {
         <p className="item__p">{descripcion}</p>
       </div>
       <div className="item__cont-buttons">
-        <button className="item__button">Completado</button>
         <button
           className="item__button item__button--outline"
           onClick={deleteTask}

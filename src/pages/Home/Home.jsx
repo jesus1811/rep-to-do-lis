@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <section className="home">
         <div className="home__cont-texts">
-          <h1 className="home__title">MULTI-TAREA</h1>
+          <h1 className="home__title">Multi-Task</h1>
         </div>
         <Todo />
         {data.map((n) => (
