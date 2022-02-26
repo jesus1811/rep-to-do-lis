@@ -5,7 +5,7 @@ const useDeleteTask = (id) => {
   const { data, setData } = useContext(DataContext);
   const deleteTask = () => {
     setData(data.filter((n) => n.id !== id));
-    window.sessionStorage.setItem(
+    localStorage.setItem(
       "data",
       JSON.stringify(data.filter((n) => n.id !== id))
     );

@@ -15,7 +15,7 @@ const ToDo = () => {
   const [addTask] = useAddTask(nombre, descripcion, setNombre, setDescripcion);
 
   return (
-    <article className="todo">
+    <form className="todo">
       <div className="todo__informacion">
         <TodoInput
           text="nombre"
@@ -33,7 +33,7 @@ const ToDo = () => {
           Agregar Tarea
         </button>
       </div>
-    </article>
+    </form>
   );
 };
 
